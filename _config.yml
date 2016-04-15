@@ -2,8 +2,6 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "pages"
     values:
-      layout: "default"
       nick: "猫叔"
-      title: "的狡窟"
+      title: "猫叔的狡窟"
