@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+<head>
+<title>{{ page.title }}</title>
+{% include styles.html %}
+</head>
+<body>
+
+    <header>
+      <div class="container">
+        <h1>{{page.title}}</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/weiht" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+
+{{ content }}
+
+      </section>
+    </div>
+
+</body>
+</html>
